@@ -1,0 +1,98 @@
+/* Write some CSS below */
+body {
+	font-family: monospace;
+	color: white;
+	font-size: medium;
+}
+
+h1 {
+	color: white;
+	font-family: monospace;
+	font-size: xx-large;
+}
+
+a {
+	color: white;
+	font-size: medium;
+	font-family: serif;
+}
+
+a:hover {
+	 color: darkblue;
+}
+
+h2 {
+	background-color: grey;
+	color: darkblack;
+	font-family: monospace;
+	font-size: xx-large;
+}
+
+h3 {
+	color: darkblack;
+	font-family: monospace;
+	font-size: x-large;
+}
+
+.square {
+	width: 200;
+	height: 250;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Kedge.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 100px;
+}
+
+.cards {
+	background: grey;
+	box-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 250x;
+	text-align: center;
+	margin: ;
+}
+
+
+h4 {
+	background-color: grey;
+	color: darkblack;
+	font-family: monospace;
+	font-size: xx-large;
+}
+
+/*
+.cards2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.cards2 {
+	background: grey;
+	box-shadow: 0 10 80px rgba(0, 0, 0, 1);
+	padding: 20px;
+	width: 250x;
+	text-align: center;
+	margin: ;
+}*/
+
+.footer {
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
